@@ -1,6 +1,6 @@
 # BruteForcer-For-XML-Request-Files-POC
 
-This tool aiming to bruteforce for saved response/requests in XML format(example burp requests).But this tool just in tests, so may not work.
+This tool aims to bruteforce for saved response/requests in XML format(for example burp requests). As we know, Burpsuite, hydra, etc. programs may do it simply, but in burpsuite we can not use big files ( it is freezing) and sometimes (for example for the websites which require 2 authentications) we can not use hydra. But this tool is just in tests, so may not work.
 
 Installation:
 
