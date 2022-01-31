@@ -13,13 +13,9 @@ print(
 def get_user_inputs():
 
     parse_object = optparse.OptionParser()
-
     parse_object.add_option("-u", "--username", dest="uname", help="username string")
-
     parse_object.add_option("-P", "--passwordlist", dest="passlist", help="password wordlist path for bforce")
-
     parse_object.add_option("-r", "--requestfile", dest="reqfile", help="file(xml) path of burp suite request")
-
     return parse_object.parse_args()
 
 
